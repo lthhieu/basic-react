@@ -1,0 +1,22 @@
+.list-todo-container {
+    margin: auto;
+    width: 40%;
+
+    .add-todo {}
+
+    .list-todo-content {
+        margin-top: 10px;
+
+        .edit-save {
+            &:hover {
+                color: lightgreen;
+            }
+        }
+
+        .delete {
+            &:hover {
+                color: red;
+            }
+        }
+    }
+}

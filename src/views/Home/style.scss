@@ -1,0 +1,26 @@
+.Gam {
+    width: 300px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.home-container {
+    margin: auto;
+    width: 40%;
+
+    .list-user-content {
+        margin-top: 10px;
+
+        .create {
+            &:hover {
+                color: green;
+            }
+        }
+
+        .delete {
+            &:hover {
+                color: red;
+            }
+        }
+    }
+}

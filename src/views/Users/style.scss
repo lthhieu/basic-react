@@ -1,0 +1,14 @@
+.list-user-container {
+    margin: auto;
+    width: 40%;
+
+    .list-user-content {
+        margin-top: 10px;
+
+        .info-back {
+            &:hover {
+                color: lightblue;
+            }
+        }
+    }
+}

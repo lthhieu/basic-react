@@ -1,0 +1,14 @@
+.list-todo-container {
+
+    .add-todo {}
+
+    .list-todo-content {
+        margin-top: 10px;
+
+        .todo-child {
+            .todo-element {
+                text-align: left;
+            }
+        }
+    }
+}

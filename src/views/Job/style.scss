@@ -1,0 +1,14 @@
+.list-job-container {
+    margin: auto;
+    width: 40%;
+
+    .list-job-content {
+        margin-top: 10px;
+
+        .delete-job {
+            &:hover {
+                color: red;
+            }
+        }
+    }
+}
