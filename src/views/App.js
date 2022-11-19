@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Nav from './Nav/Nav';
+import NavbarHeader from './Nav/NavbarHeader';
 import Home from './Home/Home';
 import MyTodo from './Todos2/MyTodo';
 import ListUser from './Users/ListUser';
@@ -20,7 +20,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <header className="App-header">
-          <Nav />
+          <NavbarHeader />
           <img src={logo} className="App-logo" alt="logo" />
           <Switch>
             <Route exact path="/">

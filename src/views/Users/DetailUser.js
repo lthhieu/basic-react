@@ -1,7 +1,6 @@
 import axios from 'axios'
 import React from 'react'
 import { withRouter } from 'react-router-dom'
-import './style.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
